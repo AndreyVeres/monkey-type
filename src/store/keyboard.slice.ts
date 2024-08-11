@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { generateWordList } from '../mocks/words';
 const words = generateWordList();
 
-export const GAME_TIME = 5;
+export const GAME_TIME = 30;
 
 export interface KeyboardState {
   words: string[];
